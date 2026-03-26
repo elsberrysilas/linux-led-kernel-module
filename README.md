@@ -42,7 +42,7 @@ LED Mask Values
 | 6 | Caps Lock + Num Lock |
 | 7 | All |
 
-Setting blink speed (0-9) (faster-slower)
+Setting blink speed (0-9) (slower-faster)
 ```bash
 echo D1 | sudo tee /proc/linux_led_kernel_module
 ```
