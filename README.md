@@ -27,7 +27,7 @@ Note: Secure Boot may need to be disabled to load this kernel module.
 ### 4. Interacting with the Module
 Setting LED mask (0-7)
 ```bash
-echo L1 | sudo tee /proc/linux_led_kernel_module
+echo L1 | sudo tee /proc/kbled
 ```
 LED Mask Values
 
@@ -44,7 +44,7 @@ LED Mask Values
 
 Setting blink speed (0-9) (slower-faster)
 ```bash
-echo D1 | sudo tee /proc/linux_led_kernel_module
+echo D1 | sudo tee /proc/kbled
 ```
 ### 6. Remove the Module
 ```bash
